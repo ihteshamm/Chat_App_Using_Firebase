@@ -1,0 +1,35 @@
+.message-list-container {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5px;
+    flex: 1;
+    overflow: scroll;
+}
+
+.message-list {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.message {
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    background: var(--color-gray);
+    border-radius: var(--border-radius);
+    text-align: left;
+}
+
+.own-message {
+    background: #005d4b;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.sender {
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+}
