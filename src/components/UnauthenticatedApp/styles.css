@@ -1,0 +1,11 @@
+.login {
+    background: var(--color-blue);
+    padding: 16px;
+}
+.text {
+    padding: 16px;
+    text-align: center;
+}
+.inputs {
+    text-align: center;
+}
